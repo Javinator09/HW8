@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example 4</title>
+  <link rel="stylesheet" href="../css/styles2.css">
+</head>
+
+<body>
+  <h1><a href="../index.html">Link to start page</a></h1>
+  <label for="name">Name:</label>
+  <input type="text" id="name"><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email"><br>
+
+  <label>Payment Type:</label><br>
+  <input type="radio" id="cash" name="payment" value="cash">
+  <label for="cash">Cash</label><br>
+  <input type="radio" id="creditCard" name="payment" value="creditCard">
+  <label for="creditCard">Credit Card</label><br>
+  <input type="radio" id="googlePay" name="payment" value="googlePay">
+  <label for="googlePay">Google Pay</label><br>
+  <input type="radio" id="applePay" name="payment" value="applePay">
+  <label for="applePay">Apple Pay</label><br>
+
+  <label for="location">Preferred Location:</label>
+  <select id="location">
+    <option value="Los Angeles">Los Angeles</option>
+    <option value="San Diego">San Diego</option>
+    <option value="Anaheim">Anaheim</option>
+    <option value="Long Beach">Long Beach</option>
+    
+  </select><br>
+
+  <button onclick="submitForm()">Submit</button>
+  <button onclick="cancelForm()">Cancel</button>
+
+  <div id="tableDisplay"></div> 
+
+  <script src="../js/ex4.js"></script>
+</body>
+
+</html>

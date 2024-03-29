@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example 2</title>
+  <link rel="stylesheet" href="../css/styles2.css">
+</head>
+<body>
+  <h1><a href="../index.html">Link to start page</a></h1>
+  <h1>GitHub Profile</h1>
+  <div id="profile-info">
+    <img id="profile-picture" src="" alt="Profile Picture">
+    <p id="profile-name"></p>
+    <p id="profile-blog"></p>
+    <p id="profile-created-at"></p>
+  </div>
+  <h2>Information about a github user</h2>
+  <input type="text" id="username" placeholder="Enter GitHub username">
+  <button onclick="fetchProfile()">Lookup</button>
+
+  <h2>User Data</h2>
+  <table id="userTableBody">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Blog</th>
+        <th>Created At</th>
+      </tr>
+    </thead>
+    <tbody id="userTableBody">
+      
+    </tbody>
+  </table>
+
+  <script src="../js/ex2.js"></script>
+</body>
+</html>
